@@ -1,19 +1,26 @@
 package aula04;
-import java.util.Scanner;
+
 public class PrimeiroPrograma {
 
-	public static void main (String [] args) {
-		Scanner scanner = new Scanner(System.in);
+	public static void main(String[] args) {
 		
-		int idade = 25, data;
-		
-		System.out.print("Digite o seu nome: ");
-		System.out.print(scanner.nextLine());
-		
-		final int IDADE = 18;
-		
-		System.out.println(IDADE);
-		
-		scanner.close();
+			System.out.println("Hello, World!!!");
+			
+			int idade;
+			idade = 25;
+			System.out.println(idade);
+			
+			idade = 42;
+			System.out.println(idade);
+			
+			double salario = 1530.24;
+			System.out.println(salario);
+			
+			String nome = "maria";
+			System.out.println(nome);
+			
+			System.out.printf("Bem-vindo(a), %s!\n", nome);
+			System.out.printf("%s, voce tem % anos!", nome, idade);
 	}
+
 }
