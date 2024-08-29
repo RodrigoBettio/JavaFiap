@@ -1,6 +1,6 @@
 package exercicios_aula05;
 
-public class exercicio2_aula05 {
+public class exercicio2 {
 	public static void main(String[] args) {
 		int a = 10;
 		float b = 3.1452f;

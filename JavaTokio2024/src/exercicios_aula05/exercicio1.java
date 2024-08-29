@@ -1,6 +1,6 @@
 package exercicios_aula05;
 
-public class exercicio1_aula05 {
+public class exercicio1 {
 	public static void main(String[] args) {
 		
 		String nome = "Rodrigo Bettio";

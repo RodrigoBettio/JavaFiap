@@ -1,8 +1,7 @@
 package exercicios_aula05;
-
 import java.util.Scanner;
 
-public class exercicio6_aula05 {
+public class exercicio6 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
@@ -16,6 +15,7 @@ public class exercicio6_aula05 {
 		double precoPeca1 = scanner.nextDouble();
 		
 		System.out.println("Escreva o nome da peça2");
+		scanner.nextLine();
 		String peca2 = scanner.nextLine(); 
 		
 		System.out.println("Escreva a quantidade possuída da sua peça");

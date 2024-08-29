@@ -1,7 +1,7 @@
 package exercicios_aula05;
 import java.util.Scanner;
 
-public class exercicio5_aula05 {
+public class exercicio4 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
@@ -10,9 +10,8 @@ public class exercicio5_aula05 {
 		System.out.println("Digite a Nota 2:");
 		double nota2 = scanner.nextDouble();
 		
-		double notaFinal = ((nota1*4) + (nota2*6))/10;
-		
-		System.out.printf("Sua nota final é: "+ notaFinal);
+		System.out.println(nota1+nota2);
 		
 	}
+
 }
