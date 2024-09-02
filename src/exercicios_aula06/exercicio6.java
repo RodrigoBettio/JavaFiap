@@ -11,7 +11,7 @@ public class exercicio6 {
 
         int idade = anoAtual - anoNascimento;
 
-        if (idade < 16) {
+        if (idade < 16 || idade >123) {
             System.out.println("Voto proibido este ano.");
         } else if (idade >= 18 && idade <= 70) {
             System.out.println("Voto obrigatório este ano.");
