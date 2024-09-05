@@ -15,7 +15,7 @@ public class exercicio7 {
 		
 		
 		
-		for (int i = 0; i<= alunos; i++) {
+		for (int i = 1; i<= alunos; i++) {
 			System.out.println("Coloque a nota: ");
 			nota = scanner.nextInt();
 			
